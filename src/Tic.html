@@ -8,12 +8,14 @@
 </head>
 <body>
     <!-- Este h1 es el que utilice como Titulo Del proyecto -->
-    <div class="hfondn">
+    <div class="hfond">
         <h1>Tic-Tac-Toe</h1>
+        <!--Este h2 lo utilizo para mostar los turnos de el jugador o la cpu-->
+        <h2 class="turno" ></h2>
     </div>
     <!-- El div con la clase "contenedor" contendra divs 
         los cuales seran las casillas del tablero-->
-    <div class="contenedor"> 
+    <div class="contenedor" onclick=PlayAudio()> 
         <div class="valor"></div>
         <div class="valor"></div>
         <div class="valor"></div>
@@ -25,7 +27,7 @@
         <div class="valor"></div>
     </div>
     
-
+    <audio id="music" src="/src/img/GOTA.mp3"></audio>
 
 
     <script src="/src/toe.js"></script>
