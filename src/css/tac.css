@@ -35,7 +35,6 @@ h2{
     display: grid;
     grid-template-columns: repeat(3,130px);
     justify-content: center;
-    margin-top: 20px;
     -webkit-box-reflect: below 1px linear-gradient(transparent,#0004) ;
     
 }

@@ -17,10 +17,8 @@ function handleClick(event) {
             console.log(nuevoVector);
         }
         if (nuevoVector.length > 0) {
-            setTimeout(() => {
-                const Alea = Math.floor(Math.random() * nuevoVector.length);
-                valor[nuevoVector[Alea]].innerHTML = cpu;
-            }, 1000);
+            const Alea = Math.floor(Math.random() * nuevoVector.length);
+            valor[nuevoVector[Alea]].innerHTML = cpu;
         }if (checkEmpate(valor)) {
             return false
             
